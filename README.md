@@ -3,7 +3,7 @@ sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
    kubectl apply -f nfv-deployment.yaml
 
    
-**src/nfv-deployment.yaml**
+**src/nfv-deployment.yaml*
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
